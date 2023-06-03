@@ -1,0 +1,38 @@
+.trophy-text {
+  display: inline;
+}
+
+.footer {
+  background-color: transparent;
+  margin-top: calc(50vh - 300px);
+}
+
+.clock-img {
+  width: 100%;
+}
+
+.trophies-strong {
+  color: rgba(172, 92, 52, 1);
+}
+
+.trophy-time-text {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.wof-star-container {
+  display: flex;
+  justify-content: center;
+}
+
+.wof-star {
+  width: 50px;
+}
+
+.trophy-img-container {
+}
+
+.trophy-claim-image {
+  height: 1.4rem;
+  padding-top: 4px;
+}

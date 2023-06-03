@@ -1,0 +1,146 @@
+/* body{
+    background-image: url(../assets/secrets-bg.png);
+    background-size: cover;
+    width: 100%; 
+} */
+
+.root-body {
+  /* background: url("../assets/secrets-bg.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.staking-body {
+  background-color: rgba(172, 92, 52, 0.25);
+  border: solid 5px rgba(172, 92, 52, 1);
+  color: #fee0b8;
+}
+
+.connect-wallet-button {
+  margin-top: 30vh;
+}
+
+.staking-body-container {
+  width: 90%;
+}
+
+.image-container {
+  margin-top: 2vh;
+  width: 90%;
+}
+
+.staking-heading {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.token-img-bordered {
+  border: solid 5px rgba(172, 92, 52);
+}
+
+.token-img-staked {
+  filter: brightness(50%);
+}
+
+.token-img-staked-bordered {
+  filter: brightness(50%);
+  border: solid 5px rgba(172, 92, 52);
+}
+
+.staking-title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.stake-button {
+  width: 100%;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.stake-button:hover {
+  background: black;
+  color: white;
+  border: black;
+}
+
+.token-number {
+  font-size: 1.5rem;
+}
+
+.modal-card {
+  border: solid 5px rgba(172, 92, 52, 1);
+  border-radius: 0;
+}
+
+.modal-card-head {
+  background-color: rgba(172, 92, 52, 0.5);
+  border-radius: 0;
+}
+
+.modal-card-title {
+  color: #fff;
+}
+
+.modal-card-body {
+  background-color: rgba(172, 92, 52, 0.5);
+  color: #fff;
+}
+
+.staking-footer {
+  margin-top: 2vh;
+  background-color: rgba(172, 92, 52, 0.5);
+  border-top: solid 5px rgba(172, 92, 52);
+}
+
+.action-button-container {
+  width: 90%;
+  margin-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.action-button {
+  cursor: pointer;
+}
+
+.staked-text {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bronzeTrophy {
+  color: #9f6231;
+}
+
+#silverTrophy {
+  color: #a7a7a7;
+}
+
+#goldTrophy {
+  color: #f1f578;
+}
+
+#diamondTrophy {
+  color: #93b2d8;
+}
+
+#wolfTrophy {
+  color: #da8717;
+}
+
+.steak-img {
+  height: 40px;
+}
+
+.buy-text {
+  font-size: 1rem;
+}
+
+.token-container {
+  color: white;
+}

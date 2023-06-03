@@ -1,0 +1,147 @@
+.weapon-image{
+    outline: solid 5px rgba(172, 92, 52, 1);
+}
+
+.weapon-image-container{
+    margin-top: 30px;
+}
+
+.training-weapon{
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.add-remove-button{
+    text-align: center;
+    background-color: rgba(172, 92, 52, 1);
+    outline: solid 5px rgba(172, 92, 52, 1);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* disable selecting */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.weapon-counter{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    background-color: rgba(172, 92, 52, 1);
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.add-button{
+    cursor: pointer;
+    &:hover{
+        color: #ccc;
+    }
+}
+
+.remove-button{
+    cursor: pointer;
+    &:hover{
+        color: #ccc;
+    }
+}
+
+.selected-weapons-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.selected-weapon-image{
+    width: 60%;
+    outline: solid 5px rgba(172, 92, 52, 1);
+}
+
+.weapon-1 {
+    position: relative;
+    bottom: 0;
+    right: 25px;
+    width: 60%;
+    &.burn-counter{
+        position: absolute;
+        top: -15px;
+        left: 60px;
+        background-color: rgba(172, 92, 52, 1);
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+    }
+}
+
+.weapon-2 {
+    position: absolute;
+    bottom: 15px;
+    left: 40px;
+    width: 60%;
+    &.burn-counter{
+        position: absolute;
+        top: -40px;
+        left: 40px;
+        background-color: rgba(172, 92, 52, 1);
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+    }
+}
+.weapon-3 {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 60%;
+
+    &.burn-counter{
+        position: absolute;
+        top: -50px;
+        left: 30px;
+        background-color: rgba(172, 92, 52, 1);
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+    }
+}
+
+.weapon-4 {
+    position: absolute;
+    bottom: 45px;
+    left: 20px;
+    width: 60%;
+
+    &.burn-counter{
+        position: absolute;
+        top: -60px;
+        left: 20px;
+        background-color: rgba(172, 92, 52, 1);
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+    }
+}
+
+.weapon-5 {
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+    width: 60%;
+
+    &.burn-counter{
+        position: absolute;
+        top: -70px;
+        left: 10px;
+        background-color: rgba(172, 92, 52, 1);
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+    }
+}
+

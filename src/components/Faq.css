@@ -1,0 +1,60 @@
+.section {
+  padding-top: 5vh;
+  margin-top: 5vh;
+  background-color: rgba(172, 92, 52, 0.25);
+  border: solid 5px rgba(172, 92, 52, 1);
+  padding-bottom: 5vh;
+}
+
+.col-right {
+  margin-left: 2vw;
+}
+
+.welcome-section {
+  margin-top: 0;
+}
+
+.text-container {
+  width: 90%;
+  align-items: center;
+}
+
+.heading {
+  color: #fee0b8;
+  font-size: 1.33rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.faq-title {
+  color: #fee0b8;
+  font-size: 2rem;
+}
+
+.den-info {
+  margin-top: 2vh;
+}
+
+.trophy-container {
+  width: 50%;
+  align-items: center;
+  border: solid 10px red;
+}
+
+.trophy-row {
+  text-align: center;
+  align-items: center;
+}
+
+.trophy-image {
+  width: 90px;
+}
+
+.wof-trophy {
+  width: 90px;
+}
+
+.trophy-title {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}

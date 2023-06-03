@@ -1,0 +1,151 @@
+.roadmap-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/roadmap-bg.png);
+  background-size: cover;
+  z-index: 1;
+}
+
+.greyed-out {
+  filter: grayscale(100%);
+  width: 20%;
+}
+
+#presents {
+  position: fixed;
+  width: 12vw;
+  top: 20vh;
+  left: 20vw;
+}
+
+#arcade {
+  width: 10%;
+}
+
+#den {
+  position: fixed;
+  width: 18vw;
+  top: 4vh;
+  left: 33vw;
+}
+
+#museum {
+  position: fixed;
+  width: 12vw;
+  top: 2vh;
+  left: 57vw;
+}
+
+#arcade {
+  position: fixed;
+  width: 6vw;
+  top: 32vh;
+  left: 75vw;
+}
+
+#inkpen {
+  position: fixed;
+  width: 13vw;
+  top: 47vh;
+  left: 20vw;
+}
+
+#rocket {
+  position: fixed;
+  width: 6vw;
+  top: 50vh;
+  left: 35vw;
+}
+
+#raffle {
+  position: fixed;
+  width: 8vw;
+  top: 50vh;
+  left: 47vw;
+}
+
+#alchemy {
+  position: fixed;
+  width: 10vw;
+  top: 60vh;
+  left: 57vw;
+}
+
+#land {
+  position: fixed;
+  width: 15vw;
+  top: 55vh;
+  left: 66vw;
+}
+
+#laptop {
+  position: fixed;
+  width: 10vw;
+  top: 76vh;
+  left: 86vw;
+}
+
+#den:hover, #raffle:hover {
+  filter: grayscale(0%);
+}
+
+#inkpen:hover {
+  filter: grayscale(0%);
+  /* width: 100%; */
+}
+
+#presents:hover {
+  filter: grayscale(0%);
+  /* width: 100%; */
+}
+
+#laptop:hover {
+  filter: grayscale(0%);
+  /* width: 100%; */
+}
+
+.roadmap-tooltip {
+  display: none;
+  justify-content: center;
+  color: #fff;
+  background-color: rgba(172, 92, 52, 0.25);
+  border: solid 2px rgba(172, 92, 52, 1);
+}
+
+div.roadmap-tooltip-item:hover .roadmap-tooltip {
+  display: block;
+  width: fit-content;
+  padding: 8px;
+  z-index: 1;
+}
+
+.presents-tooltip {
+  position: absolute;
+  top: 20vh;
+  left: 20vw;
+}
+
+.den-tooltip {
+  position: absolute;
+  top: 4vh;
+  left: 33vw;
+}
+
+.raffle-tooltip {
+  position: fixed;
+  width: 8vw;
+  top: 45vh;
+  left: 47vw;
+}
+
+.inkpen-tooltip {
+  position: absolute;
+  top: 47vh;
+  left: 20vw;
+}
+
+.laptop-tooltip {
+  position: absolute;
+  top: 70vh;
+  left: 86vw;
+}

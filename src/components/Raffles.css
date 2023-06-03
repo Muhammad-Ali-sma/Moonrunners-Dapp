@@ -1,0 +1,246 @@
+.raffles-body {
+  background-color: rgba(172, 92, 52, 0.25);
+  border: solid 5px rgba(172, 92, 52, 1);
+  color: #fee0b8;
+  padding: 50px 0px;
+}
+
+.raffles-heading {
+  text-transform: uppercase;
+}
+
+.raffles-title {
+  font-size: 1.5rem;
+}
+
+.raffles-info-report{
+  font-size: 0.8rem;
+}
+
+.active-title {
+  cursor: pointer;
+}
+
+.completed-title {
+  cursor: pointer;
+}
+
+.grayed-title {
+  color: gray;
+}
+
+.raffles-trophy-text {
+  font-size: 1rem;
+}
+
+.trophy-filter {
+  cursor: pointer;
+}
+
+.trophy-filter.selected {
+  cursor: pointer;
+  color: white;
+}
+
+.filter-pipe {
+  color: #fee0b8;
+}
+
+.raffles-body-container {
+  width: 90%;
+}
+
+.raffle-image {
+  height: auto;
+  background-color: rgba(172, 92, 52, 0.25);
+  outline: solid 4px rgba(172, 92, 52, 1);
+  margin: 20px auto;
+  display: flex;
+}
+
+.raffle-object {
+  background-color: rgba(172, 92, 52, 0.25);
+  outline: solid 4px rgba(172, 92, 52, 1);
+  color: white;
+  margin-right: 20px;
+  margin-top: 50px;
+  font-size: 0.8rem;
+  padding: 20px;
+}
+
+/* diamond styling */
+.raffle-object.diamond {
+  background-color: rgba(113, 169, 233,0.2);
+  outline: solid 4px #71a9e9;
+  color: white;
+  margin-right: 20px;
+  margin-top: 50px;
+  font-size: 0.8rem;
+  padding: 20px;
+}
+
+.diamond .raffle-image {
+  height: auto;
+  background-color: rgba(113, 169, 233,0.2);
+  outline: solid 4px #71a9e9;
+  margin: 20px auto;
+  display: flex;
+}
+
+/* gold styling */
+.raffle-object.gold {
+  background-color: rgba(255, 177, 66,0.2);
+  outline: solid 4px #ffb142;
+  color: white;
+  margin-right: 20px;
+  margin-top: 50px;
+  font-size: 0.8rem;
+  padding: 20px;
+}
+
+.gold .raffle-image {
+  height: auto;
+  background-color: rgba(255, 177, 66,0.2);
+  outline: solid 4px #ffb142;
+  margin: 20px auto;
+  display: flex;
+}
+
+/* silver styling */
+.raffle-object.silver {
+  background-color: rgba(246, 246, 246,0.2);
+  outline: solid 4px #f6f6f6;
+  color: white;
+  margin-right: 20px;
+  margin-top: 50px;
+  font-size: 0.8rem;
+  padding: 20px;
+}
+
+.silver .raffle-image {
+  height: auto;
+  background-color: rgba(246, 246, 246,0.2);
+  outline: solid 4px #f6f6f6;
+  margin: 20px auto;
+  display: flex;
+}
+
+.raffle-name {
+  height: 40px;
+}
+
+.raffle-object-trophy {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.raffle-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .raffle-buttons {
+    display: block;
+  }
+}
+
+.enter-button {
+  cursor: pointer;
+}
+
+.enter-raffle-disabled {
+  filter: grayscale(100%);
+  cursor: not-allowed;
+}
+
+.info-button {
+  cursor: pointer;
+}
+
+.raffle-modal {
+  text-transform: uppercase;
+}
+
+.raffle-modal-head {
+  background-color: rgba(172, 92, 52, 0.5);
+}
+
+.raffle-close-modal {
+  float: right;
+}
+
+.info-modal-image {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  border: solid 4px rgba(172, 92, 52, 1);
+  margin-bottom: 50px;
+}
+
+.info-modal-body-text {
+  color: #fee0b8;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.75rem;
+}
+
+.info-raffle-title {
+  font-size: 1rem;
+}
+
+.view-wallets-button {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.raffle-closing-title {
+  font-size: 1rem;
+}
+
+.raffle-unstake-text {
+  color: #e7233f;
+}
+
+.winners-text {
+  color: #5ae000;
+}
+
+.winning-address-list {
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}
+
+.raffle-entries-wallets {
+  overflow-y: scroll;
+  height: 100px;
+  overflow-x: hidden;
+}
+
+.winners-title {
+  font-size: 0.9rem;
+  color: #5ae000;
+}
+
+.winner-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  outline: solid 2px #fee0b8;
+}
+
+.not-eligible{
+  color: #e7233f;
+  margin-bottom: 20px;
+}
+
+.entered-text {
+  color: #5ae000;
+  margin-bottom: 20px;
+}
